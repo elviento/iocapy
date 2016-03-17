@@ -1,5 +1,6 @@
 # Work-In-Progress (WIP)
-Title: AWS Iot Project 
+Title: AWS Iot Project
+
 Gitter Collab : https://gitter.im/elviento/iocapy
 
 # Gitter Collaborative Project 
@@ -11,16 +12,16 @@ Investigating AWS BgDa/Analytic services including DDB,Kinesis,Elasticsearch,EMR
 Serverless (JAWS), Lambda integration
 Javascript, Python, Shell, etc.
 
-# SOLUTION
+# SOLUTIONS
 1. Iot Metric Monitoring
-2. Iot Real-time Analtics (Spark)
+2. Iot Real-time Analtics (w/ Spark)
 3. Iot Real-time Data/Log Search
 4. Other Real-time Analytics to visually asthetic data projected to user (Iot Github/Docker Build)
 
-# Real-time Data Stream
+# Real-time Data
 Iot Raspberry Pi (GoPiGo)
 
-# At-Rest Open Data Sets
+# At-Rest Open Data
 AWS Public Data Sets
 Web Crawling (Scrapy)
 Kaggle
