@@ -1,7 +1,7 @@
 # Work-In-Progress (WIP)
 Title: AWS Iot Project
 
-Gitter Collab : https://gitter.im/elviento/iocapy
+Gitter Collab: https://gitter.im/elviento/iocapy
 
 # Gitter Collaborative Project 
 Webhook for Github
