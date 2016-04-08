@@ -8,14 +8,14 @@ Webhook for Github
 
 Webhook for Docker Hub
 
-# STATUS
+# Status
 Investigating AWS BgDa/Analytic services including DDB,Kinesis,Elasticsearch,EMR,DPL,ML
 
 Serverless (JAWS), Lambda integration
 
 Javascript, Python, Shell, etc.
 
-# SOLUTIONS
+# Solutions
 1. Iot Metric Monitoring
 2. Iot Real-time Analtics (w/ Spark)
 3. Iot Real-time Data/Log Search
