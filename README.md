@@ -1,15 +1,18 @@
-# Work-In-Progress (WIP)
+# Work-In-Progress (WiP)
 Title: AWS Iot Project
 
 Gitter Collab: https://gitter.im/elviento/iocapy
 
 # Gitter Collaborative Project 
 Webhook for Github
+
 Webhook for Docker Hub
 
 # STATUS
 Investigating AWS BgDa/Analytic services including DDB,Kinesis,Elasticsearch,EMR,DPL,ML
+
 Serverless (JAWS), Lambda integration
+
 Javascript, Python, Shell, etc.
 
 # SOLUTIONS
@@ -23,18 +26,25 @@ Iot Raspberry Pi (GoPiGo)
 
 # At-Rest Open Data
 AWS Public Data Sets
+
 Web Crawling (Scrapy)
+
 Kaggle
+
 Hacker Rank
 
 # Mobile App Integration
 Serverless
+
 Cognito (FB,Twitter,Google Auth)
 
 # Analytics
 Redshift
+
 Elasticsearch 
+
 Tableau (GUI)
+
 D3JS
 
 # Authors
