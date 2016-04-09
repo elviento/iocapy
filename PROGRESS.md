@@ -1,6 +1,12 @@
 # Progress Log 
 Tracker for AWS IoT Project
 
+# Log 2016-04-09
+* Time to connect GoPiGo2, Subscribe device
+ 1. GoPiGo2 (nodejs for raspberry pi: http://weworkweplay.com/play/raspberry-pi-nodejs/)
+ 2. Installed aws-cli, aws-sdk, aws-iot-device-sdk
+ 3. WiP
+
 # Log 2016-04-08
 
 * Blank Canvas, need to get IoT sending Data to AWS.  Build a proto-type (w/o-device)
