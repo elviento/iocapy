@@ -3,9 +3,9 @@ Tracker for AWS IoT Project
 
 # Log 2016-04-08
 
-* Blank Canvas, need to get IoT sending Data to AWS.
- 1. Generate IoT Data (proto)
- 2. Send to Kinesis Stream
+* Blank Canvas, need to get IoT sending Data to AWS.  Build a proto-type (w/o-device)
+ 1. Created Iot Thing (proto) configured IAM and created DDB/Lambda Rules
+ 2. Configured MQTT.fx to Publish to Iot Topic triggering Rule (DDB table item, Lambda function)
 
 # Log 2016-03-18
 
