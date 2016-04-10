@@ -8,7 +8,7 @@ Tracker for AWS IoT Project
   - AWS IoT Nodejs, ref: http://docs.aws.amazon.com/iot/latest/developerguide/iot-device-sdk-node.html
  2. pip install aws-cli
  3. npm install -g aws-sdk aws-iot-device-sdk
- 4. Run examples, ref: https://github.com/aws/aws-iot-device-sdk-js/tree/master/examples
+ 4. sanity check, get pubsub working!
 
 # Log 2016-04-08
 
