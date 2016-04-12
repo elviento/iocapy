@@ -39,7 +39,6 @@ exports.createThing = function(name, man, type, device){
     console.log('type:', type);
     console.log('device:', device);
 
-
 	var params = {
 	  thingName: name, /* required */
 	  attributePayload: {
@@ -67,8 +66,6 @@ exports.createSecrets = function(){
 	iot.createKeysAndCertificate(params, function(err, data) {
 	  if (err) console.log(err, err.stack); // an error occurred
 	  else     //console.log(data);           // successful response
-	  	//console.log("Writing CertArn, Keypairs, and Client Cert to files");
-
 	  	var certArn = data.certificateArn; 
 
 	  	var certPem = data.certificatePem;
@@ -76,8 +73,6 @@ exports.createSecrets = function(){
 	  	var pubkey = data.keyPair.PublicKey;
 
 	  	var privkey = data.keyPair.PrivateKey;
-
-	  	//console.log(certArn + "\n" + certPem + "\n" + pubkey + "\n" + privkey);
 
 	  // create directory to store thing keys
 	  var dir = process.env.HOME + '/iot-keys';
@@ -91,10 +86,10 @@ exports.createSecrets = function(){
 	  }
 
 	  // write keypairs and certificate to iot-keys folder
-		fs.writeFile(dir+"/certArn.txt", certArn, function(err) {
-		if(err) {
-		    return console.log(err);
-		}});
+	  fs.writeFile(dir+"/certArn.txt", certArn, function(err) {
+	  if(err) {
+		  return console.log(err);
+	  }});
 
 	  fs.writeFile(dir+"/thing-cert.pem", certPem, function(err) {
 	  if(err) {
@@ -133,13 +128,9 @@ exports.createSecrets = function(){
 	  });
 
 	  // list contents of dir
-	  // fs.readdir(dir, function(err, items) {
-	  //   console.log(items);
-	 
-	  //   // for (var i=0; i<items.length; i++) {
-	  //   //     console.log(items[i]);
-	  //   // }
-	  // });
+	  fs.readdir(dir, function(err, items) {
+	  	console.log(items);
+	  });
 
-});
+	});
 }
