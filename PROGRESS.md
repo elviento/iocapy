@@ -1,6 +1,11 @@
 # Progress Log 
 Tracker for AWS IoT Project
 
+# Log 2016-04-10
+* Decided to shift from aws-cli to aws-sdk (nodejs) to configure things
+ 1. SDK ref: http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/Iot.html
+ 2. Keep code base more generic and automate thing creation, including IoT iam role, key and cert, and rule policy
+
 # Log 2016-04-09
 * Time to connect GoPiGo2, Subscribe device
  1. GoPiGo2 
