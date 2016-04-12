@@ -1,0 +1,13 @@
+{
+    "sql": "SELECT * FROM 'topic/topic_2'", 
+    "description": "subscribe to topic", 
+    "actions": [
+        {
+            "republish": {
+                "roleArn": "arn:aws:iam::123456789012:role/iot-actions-role", 
+                "topic": "topic_1"
+            }
+        }
+    ], 
+    "ruleDisabled": false
+}
